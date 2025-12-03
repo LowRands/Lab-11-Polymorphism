@@ -1,4 +1,6 @@
-package ie.atu.productv3;
+package ie.atu.productv4;
+
+import ie.atu.productv4.Product;
 
 import java.util.Scanner;
 
@@ -17,7 +19,7 @@ public class ProductApp{
             String productCode = sc.nextLine();  // read the product code
 
             // Book or a Software Object? = ProductDB.getProduct(productCode);
-            Product p = ProductDB.getProduct(productCode);
+            ie.atu.productv4.Product p = ProductDB.getProduct(productCode);
 
             // display the output
 
